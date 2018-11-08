@@ -1,5 +1,6 @@
 FROM mariadb:latest
-ENV MYSQL_ROOT_PASSWORD test
+ENV MYSQL_ROOT_PASSWORD integra
+
 
 
 # docker build -t chameleondb -f mariadb.dockerfile .

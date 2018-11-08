@@ -38,7 +38,7 @@ var conf = (module.exports = convict({
       username: {
         doc: 'The mysql database username',
         format: String,
-        default: 'chameleon',
+        default: 'root',
         env: 'MYSQL_USERNAME'
       },
       password: {
